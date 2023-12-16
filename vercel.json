@@ -12,5 +12,6 @@
       "dest": "/",
       "status": 200
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }
